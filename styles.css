@@ -1,0 +1,194 @@
+
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1{
+  font-family: "Montserrat-black";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h2{
+  line-height: 3rem;
+}
+
+h3{
+  font-family: "Montserrat  bold";
+  font-size: 2.5rem;
+}
+
+p{
+  color:#8f8f8f;
+  padding: 0 5%;
+}
+
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 1px;
+}
+
+/*title section*/
+
+#title{
+  text-align: left;
+}
+
+.image-rotate{
+  width:55%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+.front_head{
+  font-size: 4.5rem;
+}
+
+.iphone-head{
+  margin-top: 0.5rem;
+  line-height: 1.5rem;
+  margin-bottom: 0;
+}
+
+.btn-text{
+  padding-bottom: 5rem;
+}
+
+.navbar{
+  padding: 0 0 4rem 0;
+}
+
+.navbar-brand{
+  font-size: 3rem;
+  padding:0 0 0;
+}
+
+.nav-item{
+  padding: 0 20px 0;
+  font-size: 18px;
+}
+
+.row{
+  padding-bottom: 5rem;
+}
+
+/*section*/
+
+.colored-container{
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.white-container{
+    background-color: #fff;
+}
+
+/* download buttons*/
+.Download-button{  /* we doesnot use btn here bcz their may arise a cond. where doesnot need to apply same margin that's add custom class */
+  margin:0 3% 0 0;
+  margin-bottom: 1.5rem;
+}
+
+/*features*/
+
+.check-circle{
+  width: 50%;
+}
+
+#features{
+  padding-top: 4rem;
+  position: relative;
+}
+
+.text-width{
+  padding-bottom: 5%;
+}
+
+/* for hovering*/
+.icon{
+  color:#ef8172;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+/*testimonial section*/
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.carousel-item{
+    padding : 7% 18%;
+}
+
+.testimonials-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 1.5rem;
+}
+
+/*press section*/
+
+#press{
+  background-color: #ef8172;
+  padding-bottom: 5%;
+}
+
+.press-logo{
+  width: 15%;
+  padding: 0 1.5rem 0;
+}
+
+#pricing{
+  padding:5% 6%;
+}
+
+.pricing-head{
+  font-size: 2.5rem;
+}
+
+.pricing-col{
+  padding: 1% 2%;
+}
+
+/* call to action */
+
+#cta{
+  padding: 5% 19%;
+}
+
+.cta-text{
+  font-family: "Montserrat" Black;
+  font-size: 4rem;
+}
+
+.Download-cta-button{
+  margin-top: 1rem;
+  margin: 1rem 1rem 1rem;
+}
+
+/*footer*/
+
+#footer{
+  padding: 5% 20%;
+}
+
+.footer-icon{
+  margin: auto 0.5rem 1rem;
+}
+
+@media (max-width:1028px ){
+
+   .container-fluid{
+     text-align: center;
+   }
+
+  .image-rotate{
+     position: static;
+     transform: rotate(0);
+     margin-top: 0.2rem;
+  }
+}
